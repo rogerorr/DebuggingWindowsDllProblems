@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.20)
+
+project(DebuggingWindowsDllProblems)
+
+add_subdirectory(DllNotFound)
+add_subdirectory(LoadLibraryNotFound)
+add_subdirectory(LoadLibraryWithCrash)
+add_subdirectory(MissingSymbol)
+add_subdirectory(DllWithCrash)
+add_subdirectory(SetLoaderSnaps32Bit)
+add_subdirectory(SetLoaderSnaps)
+add_subdirectory(ShowLoaderSnaps)
